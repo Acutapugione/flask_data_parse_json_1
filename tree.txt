@@ -1,0 +1,44 @@
+.
+├── app
+│   ├── db
+│   │   ├── __init__.py
+│   │   ├── models
+│   │   │   ├── event.py
+│   │   │   ├── __init__.py
+│   │   │   ├── __pycache__
+│   │   │   │   ├── event.cpython-311.pyc
+│   │   │   │   ├── __init__.cpython-311.pyc
+│   │   │   │   └── user.cpython-311.pyc
+│   │   │   └── user.py
+│   │   └── __pycache__
+│   │       └── __init__.cpython-311.pyc
+│   ├── forms
+│   │   ├── __init__.py
+│   │   ├── login.py
+│   │   ├── __pycache__
+│   │   │   ├── __init__.cpython-311.pyc
+│   │   │   ├── login.cpython-311.pyc
+│   │   │   └── register.cpython-311.pyc
+│   │   └── register.py
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   └── __init__.cpython-311.pyc
+│   ├── routes
+│   │   ├── auth.py
+│   │   ├── default.py
+│   │   ├── __init__.py
+│   │   └── __pycache__
+│   │       ├── auth.cpython-311.pyc
+│   │       ├── default.cpython-311.pyc
+│   │       └── __init__.cpython-311.pyc
+│   └── templates
+│       ├── base.html
+│       ├── form_template.html
+│       ├── __helpers.html
+│       └── main.html
+├── main.py
+├── my_db.sql
+├── requirements.txt
+└── tree.txt
+
+12 directories, 30 files
