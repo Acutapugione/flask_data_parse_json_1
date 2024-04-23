@@ -1,1 +1,1 @@
-from . import auth, default# and another routes
+from . import auth, default, error# and another routes

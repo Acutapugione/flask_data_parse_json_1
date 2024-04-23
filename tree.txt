@@ -2,37 +2,28 @@
 ├── app
 │   ├── db
 │   │   ├── __init__.py
-│   │   ├── models
-│   │   │   ├── event.py
-│   │   │   ├── __init__.py
-│   │   │   ├── __pycache__
-│   │   │   │   ├── event.cpython-311.pyc
-│   │   │   │   ├── __init__.cpython-311.pyc
-│   │   │   │   └── user.cpython-311.pyc
-│   │   │   └── user.py
-│   │   └── __pycache__
-│   │       └── __init__.cpython-311.pyc
+│   │   └── models
+│   │       ├── event.py
+│   │       ├── __init__.py
+│   │       └── user.py
 │   ├── forms
 │   │   ├── __init__.py
 │   │   ├── login.py
-│   │   ├── __pycache__
-│   │   │   ├── __init__.cpython-311.pyc
-│   │   │   ├── login.cpython-311.pyc
-│   │   │   └── register.cpython-311.pyc
 │   │   └── register.py
 │   ├── __init__.py
-│   ├── __pycache__
-│   │   └── __init__.cpython-311.pyc
 │   ├── routes
 │   │   ├── auth.py
 │   │   ├── default.py
-│   │   ├── __init__.py
-│   │   └── __pycache__
-│   │       ├── auth.cpython-311.pyc
-│   │       ├── default.cpython-311.pyc
-│   │       └── __init__.cpython-311.pyc
+│   │   ├── error.py
+│   │   └── __init__.py
+│   ├── static
+│   │   ├── css
+│   │   │   └── main.css
+│   │   ├── img
+│   │   └── js
 │   └── templates
 │       ├── base.html
+│       ├── error.html
 │       ├── form_template.html
 │       ├── __helpers.html
 │       └── main.html
@@ -41,4 +32,4 @@
 ├── requirements.txt
 └── tree.txt
 
-12 directories, 30 files
+11 directories, 22 files
